@@ -14,7 +14,7 @@ It runs on reasonably new Chrome, Safari, Firefox, Mobile Safari and Android Chr
 (not on Edge nor IE. Safari and Mobile Safari have a start up issue;
 takes a long time until getting ready, but work OK once started).
 
-You can try it out at: https://doodle-simple-test.netlify.com/
+You can try it out at: https://tfjs-doodle-recognition-pwa.netlify.com/
 
 ![Screenshot](https://i.imgur.com/G6g18ap.png)
 
