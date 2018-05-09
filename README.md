@@ -6,7 +6,9 @@ that uses [TensorFlow.js](https://js.tensorflow.org/) and performs doodle recogn
 
 It loads a pre-trained CNN model that was converted to TensorFlow.js format
 by [tfjs-converter](https://github.com/tensorflow/tfjs-converter).
-The training code is shared at [the root of this repo](../../../..).
+The training code is shared at: https://github.com/maru-labo/doodle
+(actually this repo is a temporal copy of
+[this example in the above repo](https://github.com/maru-labo/doodle/tree/master/examples/tensorflow_js_simple))
 
 It runs on reasonably new Chrome, Safari, Firefox, Mobile Safari and Android Chrome
 (not on Edge nor IE. Safari and Mobile Safari have a start up issue;
