@@ -24,7 +24,7 @@ The following commands will start a web server on `localhost:8080`
 and open a browser page with the demo.
 
 ```bash
-cd tensorflow_js_simple
+cd tfjs-doodle-recognition-pwa
 yarn        # Installs dependencies.
 yarn start  # Starts a web server and opens a page. Also watches for changes.
 ```
