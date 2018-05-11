@@ -16,7 +16,7 @@ takes a long time until getting ready, but work OK once started).
 
 You can try it out at: https://tfjs-doodle-recognition-pwa.netlify.com/
 
-![Screenshot](https://i.imgur.com/G6g18ap.png)
+![Screenshot](https://i.imgur.com/G6g18ap.png)![QR code](https://i.imgur.com/XOQIx5W.png)
 
 ### Building and Running
 
