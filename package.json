@@ -10,8 +10,8 @@
     "build": "webpack",
     "watch": "webpack --watch",
     "start": "webpack-dev-server --open",
-    "clean": "rm -rf public/bundle.js",
-    "clean-all": "rm -rf public/bundle.js node_modules"
+    "clean": "\\rm -rf public/bundle.js",
+    "clean-all": "\\rm -rf public/bundle.js node_modules"
   },
   "dependencies": {
     "@tensorflow/tfjs-converter": "^0.2.1",

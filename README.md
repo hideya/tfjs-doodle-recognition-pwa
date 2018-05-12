@@ -10,13 +10,15 @@ The training code is shared at: https://github.com/maru-labo/doodle
 (actually this repo is a temporal copy of
 [this example in the  repo](https://github.com/maru-labo/doodle/tree/master/examples/tensorflow_js_simple))
 
+<img src="https://i.imgur.com/XOQIx5W.png" width="100" align="right">
+
 It runs on reasonably new Chrome, Safari, Firefox, Mobile Safari and Android Chrome
 (not on Edge nor IE. Safari and Mobile Safari have a start up issue;
 takes a long time until getting ready, but work OK once started).
 
 You can try it out at: https://tfjs-doodle-recognition-pwa.netlify.com/
 
-![Screenshot](https://i.imgur.com/G6g18ap.png)![QR code](https://i.imgur.com/XOQIx5W.png)
+![Screenshot](https://i.imgur.com/G6g18ap.png)
 
 ### Building and Running
 
