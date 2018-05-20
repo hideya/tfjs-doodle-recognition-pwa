@@ -1,6 +1,6 @@
 {
   "name": "example_tensorflow_js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Doodle Recognition with TensorFlow.js",
   "author": "hideya kawahara",
   "license": "MIT",
