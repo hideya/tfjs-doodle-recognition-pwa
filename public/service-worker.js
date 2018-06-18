@@ -3,7 +3,7 @@
 // ref: https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker
 // ref: https://qiita.com/y_fujieda/items/f9e765ac9d89ba241154
 
-const CACHE_NAME = 'main-rev-1';
+const CACHE_NAME = 'main-rev-2';
 const URLS_TO_CACHE = [
   './index.html',
   './bundle.js',
