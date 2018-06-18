@@ -14,7 +14,7 @@ The training code is shared at: https://github.com/maru-labo/doodle
 
 It runs on reasonably new Chrome, Safari, Firefox, Mobile Safari and Android Chrome
 (not on Edge nor IE. Safari and Mobile Safari have a start up issue;
-takes a long time until getting ready, but work OK once started).
+take a long time until getting ready, but work OK once started).
 
 You can try it out at: https://tfjs-doodle-recognition-pwa.netlify.com/
 
