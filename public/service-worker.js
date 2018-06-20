@@ -7,12 +7,12 @@ const CACHE_NAME = 'main-rev-2';
 const URLS_TO_CACHE = [
   './index.html',
   './bundle.js',
-  './saved_model_js/tensorflowjs_model.pb',
-  './saved_model_js/weights_manifest.json',
-  './saved_model_js/group1-shard1of4',
-  './saved_model_js/group1-shard2of4',
-  './saved_model_js/group1-shard3of4',
-  './saved_model_js/group1-shard4of4',
+  './model/tensorflowjs_model.pb',
+  './model/weights_manifest.json',
+  './model/group1-shard1of4',
+  './model/group1-shard2of4',
+  './model/group1-shard3of4',
+  './model/group1-shard4of4',
   'https://cdnjs.cloudflare.com/ajax/libs/signature_pad/1.5.3/signature_pad.min.js'
 ];
 
