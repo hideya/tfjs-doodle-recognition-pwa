@@ -47,7 +47,7 @@ for details including the other aspects of debugging PWA and Service Workers.
 ### Updating Pre-trained Model Data
 
 For the convenience, this example includes a pre-trained model files
-under `public/saved_model_js` (the original model is of
+under `public/model` (the original model is of
 [this .tar.gz file](https://github.com/maru-labo/doodle/releases/download/v1.0.0/model.tar.gz)).
 The following steps illustrate how to update those model files:
 
@@ -57,7 +57,7 @@ The following steps illustrate how to update those model files:
     [SavedModel CLI (Command-Line Interface)](https://www.tensorflow.org/versions/r1.2/programmers_guide/saved_model_cli)
 3. Convert the saved model into TensorFlow.js format by using
     [tfjs-converter](https://github.com/tensorflow/tfjs-converter).
-4. Replace the model files under `public/saved_model_js` with the updated ones.
+4. Replace the model files under `public/model` with the updated ones.
 5. Update the source code accordingly, if required.
 
 [SavedModel CLI](https://www.tensorflow.org/versions/r1.2/programmers_guide/saved_model_cli)
@@ -100,7 +100,7 @@ tensorflowjs_converter \
     --saved_model_tags='serve' \
     --output_node_names='classes,probabilities' \
     export/Servo/* \
-    public/saved_model_js
+    public/model
 
 # Step 5
 # Update INPUT_NODE_NAME and OUTPUT_NODE_NAME in src/index.js as needed.
