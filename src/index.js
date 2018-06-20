@@ -109,10 +109,10 @@ class ResultTable {
   }
 }
 
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('./service-worker.js')
-    .then(success => console.log('Service Worker registered:', success))
-    .catch(error => console.error('Error: Failed to register Service Worker:', error));
-} else {
-  console.log('Warning: No support for Service Workers');
-}
+// if ('serviceWorker' in navigator) {
+//   navigator.serviceWorker.register('./service-worker.js')
+//     .then(success => console.log('Service Worker registered:', success))
+//     .catch(error => console.error('Error: Failed to register Service Worker:', error));
+// } else {
+//   console.log('Warning: No support for Service Workers');
+// }

@@ -1,7 +1,7 @@
 
-# Doodle Recognition PWA with TensorFlow.js
+# Doodle Recognition Web App with TensorFlow.js
 
-This is an example [PWA](https://en.wikipedia.org/wiki/Progressive_Web_Apps)
+This is an example Web App
 that uses [TensorFlow.js](https://js.tensorflow.org/) and performs doodle recognition.
 
 It loads a pre-trained CNN model that was converted to TensorFlow.js format
@@ -32,17 +32,6 @@ yarn start  # Starts a web server and opens a page. Also watches for changes.
 ```
 
 After `yarn build`, `public` directory holds the deployable files.
-Note that those files need to be served via **https** to enable PWA features
-(unless they are served from `localhost`).
-
-### <a name="notes-on-debugging"></a>Notes on Debugging
-
-This is a PWA, so the involved files will be cached
-(it is different from the browser cache; it is Service Worker controlled cache).
-Attention is required to make sure that each debug execution respects
-the latest file changes. Please reference the document
-["Debugging Service Workers"](https://developers.google.com/web/fundamentals/codelabs/debugging-service-workers/)
-for details including the other aspects of debugging PWA and Service Workers.
 
 ### Updating Pre-trained Model Data
 
